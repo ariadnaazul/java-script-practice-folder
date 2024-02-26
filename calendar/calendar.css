@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    display: block;
+    float: left;
+    width: 25%;
+    min-width: 100px;
+    border: 2px solid white;
+    padding: 5px;
+    height: 40px;
+    background-color: #4a2db6;
+    color: white;
+    padding: 30px;
+    list-style: none;
+    text-align: center;
+}

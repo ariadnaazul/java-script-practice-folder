@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./eventos.js" defer></script>
+    <style>
+        .tile {
+            height: 100px;
+            width: 25%;
+            float: left;
+        }
+        #container3{ /*Importante para que el container sea visible por fuera de los div*/
+            padding: 20%;
+            height: 50vh;
+        }
+    </style>
+</head>
+
+<body>
+    <button>Cambiar el color</button>
+    <form>
+        <div>
+            <label for="fname">Nombre: </label>
+            <input id="fname" type="text" />
+        </div>
+        <div>
+            <label for="lname">Apellido: </label>
+            <input id="lname" type="text" />
+        </div>
+        <div>
+            <input id="submit" type="submit" />
+        </div>
+    </form>
+    <p></p>
+
+    <div id="container">
+        <button class="onMe">¡Haz clic en mi!</button>
+    </div>
+    <pre id="output"></pre>
+
+    <div id="container2">
+        <button class="onMe2">¡Haz clic en mi!</button>
+    </div>
+    <pre id="output2"></pre>
+
+    <div id="container3">
+        <div class="tile"><p>hola</p></div> <!--Notese como los child se comportan-->
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+    </div>
+
+
+
+</body>
+
+</html>
