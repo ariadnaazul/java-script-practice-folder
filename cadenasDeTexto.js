@@ -1,6 +1,8 @@
 //Strings
 let cadena1 = "Esto es una cadena de texto con comillas dobles";
 let cadena2 = 'Esto es una cadena de texto con comillas simples';
+let mensaje = `Hola, mi nombre es ${cadena2} y tengo ${cadena1} años.
+y puedo saltar de renglon`;
 
 console.log (cadena1);
 console.log (cadena2);
