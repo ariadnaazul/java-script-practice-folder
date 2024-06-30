@@ -104,3 +104,9 @@ console.log(invocaionArray);
 const {primero, segundo, ...otraInfo} = {primero: 1, segundo: 2, tercero: 3, cuarto: 4};
 
 console.log(otraInfo)
+
+
+//structuresClon para copias profundas.
+
+const clon = structuredClone(spreadArray)
+console.log(clon);
