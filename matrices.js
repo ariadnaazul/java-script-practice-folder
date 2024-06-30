@@ -84,3 +84,23 @@ console.log (ciudades); //[ "Rawson", "Neuquen", "Bariloche", "Mendoza" ]
 let firstCity = ciudades.shift(); //La variable firstCity guarda el elemento eliminado.
 console.log (firstCity); // "Rawson"
 console.log (ciudades); //[ "Neuquen", "Bariloche", "Mendoza" ]
+
+//-----------------------------------------------------------------------
+
+//Operadores rest y spread
+
+const spreadArray = [1, 2, 3, 4];
+
+//spread permite a un elemento iterable ser expandido
+const newSpreadArray = [...spreadArray];  
+console.log(newSpreadArray);
+
+const invocaionArray = [spreadArray]
+console.log(invocaionArray);
+
+
+//siempre que utilice rest en un   objeto desestructurado, el operador rest producirá un objeto de propiedades.
+
+const {primero, segundo, ...otraInfo} = {primero: 1, segundo: 2, tercero: 3, cuarto: 4};
+
+console.log(otraInfo)
